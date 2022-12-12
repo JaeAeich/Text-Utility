@@ -66,25 +66,25 @@ function TextArea(props) {
 				/>
 				<button
 					onClick={handleUpperClick}
-					className={`btn btn-primary my-3 text-${props.invMode}`}
+					className={`btn btn-primary my-1  text-${props.invMode}`}
 				>
 					Convert To Upper Case
 				</button>
 				<button
 					onClick={handleLowerClick}
-					className={`btn btn-primary my-3 mx-3 text-${props.invMode}`}
+					className={`btn btn-primary my-1 mx-1 text-${props.invMode}`}
 				>
 					Convert To Lower Case
 				</button>
 				<button
 					onClick={handleClickInvert}
-					className={`btn btn-primary my-3 mx-3 text-${props.invMode}`}
+					className={`btn btn-primary my-1 mx-1 text-${props.invMode}`}
 				>
 					Invert Cases
 				</button>
 				<button
 					onClick={handleClickClear}
-					className={`btn btn-primary my-3 mx-3 text-${props.invMode}`}
+					className={`btn btn-primary my-1 mx-31text-${props.invMode}`}
 				>
 					Clear
 				</button>
